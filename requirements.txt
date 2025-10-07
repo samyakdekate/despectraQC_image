@@ -1,0 +1,8 @@
+pillow
+qiskit
+qiskit-aer
+matplotlib
+numpy
+opencv-python
+scipy
+scikit-image
