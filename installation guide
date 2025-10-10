@@ -1,0 +1,85 @@
+Here is a concise installation guide for your DESPECTRA: Quantum-Driven Spectral Analysis and Enhancement of Digital Images project.
+
+⚛️ DESPECTRA Installation Guide
+This guide details how to set up the Python environment and run the main demonstration notebook for the DESPECTRA project.
+
+1. Prerequisites
+You'll need a stable environment with the following software installed:
+
+
+Python: Version 3.8 or later.
+
+Git: For cloning the repository.
+
+Jupyter Notebook: To run the main demonstration file.
+
+Hardware (Recommended):
+
+Processor: Intel Core i7 (10th Gen) / AMD Ryzen 7 or higher.
+
+RAM: 16 GB or higher (for faster quantum simulation).
+
+Operating System: Windows 10/11 or Linux (Ubuntu 20.04 LTS or later).
+
+2. Environment Setup
+It is strongly recommended to use a virtual environment (e.g., conda or venv) to manage dependencies.
+
+A. Clone the Repository
+
+Open your terminal or command prompt and execute the following commands:
+
+Bash
+
+# 1. Clone the repository from GitHub
+git clone https://github.com/[Your-GitHub-Username]/Despectra-Quantum-Image-Analysis.git
+
+# 2. Navigate into the project directory
+cd Despectra-Quantum-Image-Analysis
+B. Install Dependencies
+
+The project relies on specific versions of key quantum and classical libraries, which are listed in the requirements.txt file.
+
+Bash
+
+# Install all required Python packages
+pip install -r requirements.txt
+
+# --- Required Libraries ---
+# Qiskit & Qiskit-Aer: For quantum circuit creation and simulation [cite: 160]
+# OpenCV: For classical image preprocessing [cite: 161]
+# NumPy & SciPy: For matrix operations and numerical computation [cite: 162]
+# Matplotlib: For histogram plotting and visualization [cite: 163]
+3. Running the Demonstration
+The core project demonstration, including Quantum Edge Detection and Contrast Enhancement comparisons, is run via the Jupyter Notebook.
+
+A. Launch Jupyter
+
+Execute the following command in the project's root directory:
+
+Bash
+
+jupyter notebook
+B. Open and Run the Notebook
+
+In the browser window, navigate to the notebooks folder.
+
+Open mini_qc-checkpoint.ipynb.
+
+Execute all cells in the notebook sequentially (use the "Run All" command in the notebook interface).
+
+The notebook will perform the following steps and display the results:
+
+Load and resize the input image from the /data/ folder .
+
+Perform Quantum Edge Detection and display the output alongside the Classical Sobel baseline .
+
+Perform Quantum Contrast Enhancement and generate the Pixel Difference Heatmap .
+
+Display the Statistical Comparison Report (Avg Brightness, PSNR, SSIM, etc.) .
+
+4. Code & Documentation Access
+
+Source Code: The core quantum-classical logic can be found in the /src/ folder (if refactored) .
+
+
+Full Report: The detailed project report is available in the /report/ directory as a PDF 
